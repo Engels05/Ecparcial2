@@ -1,0 +1,40 @@
+.truncate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.truncate-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.truncate-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #1976d2;
+}
+
+.truncate-box h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+.truncate-box p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+  margin: 5px 0;
+}

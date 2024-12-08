@@ -1,0 +1,16 @@
+<div class="auth-container">
+  <div class="auth-card">
+    <h2>AUTENTICACIÓN</h2>
+    <form class="auth-form" (submit)="login(txtusuario, txtpassword)">
+      <div>
+        <label for="usuario">Usuario</label>
+        <input id="usuario" type="text" #txtusuario required />
+      </div>
+      <div>
+        <label for="password">Contraseña</label>
+        <input id="password" type="password" #txtpassword required />
+      </div>
+      <button class="auth-button" type="submit">Ingresar</button>
+    </form>
+  </div>
+</div>
